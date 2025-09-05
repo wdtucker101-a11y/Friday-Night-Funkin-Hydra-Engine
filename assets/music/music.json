@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Menu Title OST",
+        "location": "assets/music/menus/menuMusic.ogg",
+        "voices": false
+    },
+    {
+        "name": "Dialogue Cutscene",
+	    "location": "assets/music/menus/dialogueCutscene.ogg",
+        "voices": false
+    },
+    {
+        "name": "Neutralization",
+	    "location": "assets/music/songs/Neutralization/Inst.ogg",
+        "voices": true,
+        "vocalslocation": "assets/music/songs/Neutralization/Vocals.ogg"
+    }
+]
