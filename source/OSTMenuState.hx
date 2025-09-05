@@ -536,13 +536,7 @@ class ManualSubState extends FlxTypedGroup<FlxSprite>
 
         if (FlxG.mouse.overlaps(close) && FlxG.mouse.justPressed)
         {
-            remove(bg);
-            remove(alphabg);
-            remove(text);
-            remove(instructions);
-            remove(close);
-            remove(bgbutton);
-            remove(textbutton);
+            removeWindow();
         }
     }
 
@@ -568,3 +562,4 @@ class ManualSubState extends FlxTypedGroup<FlxSprite>
         remove(textbutton);
     }
 }
+
